@@ -19,4 +19,4 @@ The message board application you are going to build has the following requireme
 
 ## Hard Mode
 
-[Click Here](supplemental-documentation/hard-mode.md)
+Only after you complete base mode, [click here](supplemental-documentation/hard-mode.md)
