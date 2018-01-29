@@ -19,6 +19,8 @@ The message board application you are going to build has the following requireme
 * Use of a service is OPTIONAL. Get it working in a Controller first. Add a service if you have time.
 * You do not need `ngRoute` (client-side routing)
 
+## Mockup
+
 ![Wireframe](images/wireframe.png)
 
 
