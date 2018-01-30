@@ -9,6 +9,7 @@ Just relax and show us what you know!
 The message board application you are going to build has the following requirements:
 
 * MUST use Angular and MongoDB
+* Name your database: `ccfive_younamehere`. Example: `ccfive_kris`
 * Your Front End should have two inputs. One for the user's name, the other for the user's message. Additionally, there should be a submit button,
 * When the submit button is clicked, you must send the name and message from the inputs to the server to be written to a Mongo Database
 * Once the message has been successfully written to the database, display all messages on the DOM,
