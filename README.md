@@ -8,6 +8,7 @@ Just relax and show us what you know!
 
 The message board application you are going to build has the following requirements:
 
+* Read **ALL** instructions before you start
 * MUST use Angular and PostgreSQL
 * Name your database: `message_board`
 * Your Front End should have two inputs. One for the user's name, the other for the user's message. Additionally, there should be a submit button,
@@ -32,7 +33,7 @@ VALUES ('Dane', 'The busses were really slow today!');
 
 ### NOTE!
 
-* Use of a service is OPTIONAL. Get it working in a Controller first. Add a service if you have time.
+* Use of a service is **OPTIONAL**. Get it working in a Controller first. Add a service if you have time.
 * You **do not** need `ngRoute` (client-side routing)
 * When you're done please turn in the assignment and work quietly
 
