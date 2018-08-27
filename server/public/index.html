@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SEAN Shoe Store</title>
+    <script src="vendors/angular.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <script src="scripts/controllers/message.controller.js"></script>
+</head>
+<body ng-app="myApp">
+    <h1>Message Board</h1>
+    Is AngularJS working? {{ 2 === 2 }}
+
+    <div ng-controller="MessageController as vm">
+        <form ng-submit="vm.addMessage(vm.messageToAdd)">
+            Name: <input type="text" ng-model="vm.messageToAdd.name"><br>
+            Message: <input type="text" ng-model="vm.messageToAdd.message"><br>
+            <input type="submit">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th><th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="message in vm.message">
+                    <td>{{message.name}}</td><td>{{message.message}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
